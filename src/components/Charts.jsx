@@ -16,9 +16,8 @@ class Charts extends React.Component {
         Benchmark: x.expectedAmounts['benchmark']
       })
     })
-
     return (
-      <MDBContainer style={{height: '50vh'}}>
+      <MDBContainer style={{height: '50vh'}}> 
         <LineChart
           width={1000}
           height={500}
